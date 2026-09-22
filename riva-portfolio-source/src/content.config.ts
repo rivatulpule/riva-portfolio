@@ -26,6 +26,16 @@ const work = defineCollection({
     coverImage: z.string().default('/images/work/placeholder.svg'),
     coverImageAlt: z.string(),
     draft: z.boolean().default(false),
+    // Compact "At a glance" facts shown on the case study overview — role, method, focus, etc.
+    // Only ever drawn from facts already written in the project body; never invented.
+    atAGlance: z
+      .array(
+        z.object({
+          label: z.string(),
+          value: z.string(),
+        })
+      )
+      .optional(),
   }),
 });
 

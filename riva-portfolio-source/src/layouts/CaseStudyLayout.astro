@@ -7,6 +7,11 @@ interface NextProject {
   title: string;
 }
 
+interface AtAGlanceItem {
+  label: string;
+  value: string;
+}
+
 interface Props {
   title: string;
   subtitle: string;
@@ -15,17 +20,19 @@ interface Props {
   summary: string;
   coverImage: string;
   coverImageAlt: string;
+  atAGlance?: AtAGlanceItem[];
   next: NextProject;
 }
 
-const { title, subtitle, projectType, category, summary, coverImage, coverImageAlt, next } = Astro.props;
+const { title, subtitle, projectType, category, summary, coverImage, coverImageAlt, atAGlance, next } = Astro.props;
 const isPlaceholder = coverImage.includes('placeholder');
 ---
 
 <BaseLayout title={title} description={summary}>
   <article>
+    <!-- OVERVIEW -->
     <header class="border-b border-[var(--color-border)] bg-[var(--color-cream-dark)]">
-      <div class="mx-auto max-w-4xl px-5 pb-12 pt-14 sm:px-8 sm:pt-20">
+      <div class="mx-auto max-w-6xl px-5 pb-14 pt-14 sm:px-8 sm:pt-20">
         <a href="/work" class="link-underline text-sm font-semibold text-[var(--color-brown)]">← Back to Work</a>
 
         <div class="mt-6 flex flex-wrap items-center gap-2">
@@ -44,25 +51,42 @@ const isPlaceholder = coverImage.includes('placeholder');
         </h1>
         <p class="mt-3 max-w-2xl text-lg italic text-[var(--color-brown)]">{subtitle}</p>
         <p class="mt-5 max-w-2xl text-base leading-relaxed text-[var(--color-ink)]/90">{summary}</p>
+
+        <div class="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-[1.3fr_1fr] lg:items-start">
+          {isPlaceholder ? (
+            <Placeholder label={coverImageAlt} aspect="wide" />
+          ) : (
+            <img src={coverImage} alt={coverImageAlt} class="aspect-[16/9] w-full rounded-lg border border-[var(--color-border)] object-cover" />
+          )}
+
+          {atAGlance && atAGlance.length > 0 && (
+            <div class="rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-6">
+              <p class="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-rust)]">At a glance</p>
+              <dl class="mt-4 space-y-4">
+                {atAGlance.map((item) => (
+                  <div>
+                    <dt class="text-xs font-semibold uppercase tracking-wide text-[var(--color-brown)]">{item.label}</dt>
+                    <dd class="mt-1 text-sm leading-snug text-[var(--color-charcoal)]">{item.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
+        </div>
       </div>
     </header>
 
-    <div class="mx-auto max-w-4xl px-5 py-10 sm:px-8">
-      {isPlaceholder ? (
-        <Placeholder label={coverImageAlt} aspect="wide" class="mb-10" />
-      ) : (
-        <img src={coverImage} alt={coverImageAlt} class="mb-10 aspect-[16/9] w-full rounded-lg object-cover" />
-      )}
-
+    <!-- BODY -->
+    <div class="mx-auto max-w-5xl px-5 py-14 sm:px-8">
       <div
-        class="prose prose-neutral max-w-none prose-headings:font-serif-display prose-headings:font-semibold prose-headings:text-[var(--color-charcoal)] prose-h2:mt-12 prose-h2:text-2xl prose-h2:border-t prose-h2:border-[var(--color-border)] prose-h2:pt-8 prose-p:leading-relaxed prose-p:text-[var(--color-ink)]/90 prose-a:text-[var(--color-brown)] prose-a:font-semibold prose-strong:text-[var(--color-charcoal)] prose-li:text-[var(--color-ink)]/90 prose-blockquote:border-[var(--color-rust)] prose-blockquote:text-[var(--color-brown-dark)]"
+        class="case-study-body prose prose-neutral mx-auto max-w-3xl prose-headings:font-serif-display prose-headings:font-semibold prose-headings:text-[var(--color-charcoal)] prose-h2:mb-4 prose-h2:mt-0 prose-h2:text-2xl prose-p:leading-relaxed prose-p:text-[var(--color-ink)]/90 prose-a:text-[var(--color-brown)] prose-a:font-semibold prose-strong:text-[var(--color-charcoal)] prose-em:text-[var(--color-ink)]/70 prose-img:rounded-lg prose-img:border prose-img:border-[var(--color-border)]"
       >
         <slot />
       </div>
     </div>
 
     <footer class="border-t border-[var(--color-border)] bg-[var(--color-cream-dark)]">
-      <div class="mx-auto flex max-w-4xl flex-col items-start justify-between gap-4 px-5 py-10 sm:flex-row sm:items-center sm:px-8">
+      <div class="mx-auto flex max-w-5xl flex-col items-start justify-between gap-4 px-5 py-10 sm:flex-row sm:items-center sm:px-8">
         <p class="text-sm font-medium uppercase tracking-wide text-[var(--color-brown)]">Next project</p>
         <a href={`/work/${next.slug}`} class="group flex items-center gap-3 font-serif-display text-xl font-semibold text-[var(--color-charcoal)]">
           {next.title}
@@ -74,3 +98,81 @@ const isPlaceholder = coverImage.includes('placeholder');
     </footer>
   </article>
 </BaseLayout>
+
+<style>
+  /* Each ## section becomes a clearly demarcated, numbered block instead of a
+     continuous stack of paragraphs — a lightweight way to add visual hierarchy
+     and scannability without touching the markdown content itself. */
+  .case-study-body {
+    counter-reset: section;
+  }
+  .case-study-body :global(h2) {
+    counter-increment: section;
+    position: relative;
+    padding-top: 2.5rem;
+    margin-top: 3rem !important;
+    border-top: 1px solid var(--color-border);
+  }
+  .case-study-body :global(h2::before) {
+    content: counter(section, decimal-leading-zero);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: var(--color-rust);
+  }
+  .case-study-body :global(h2:first-of-type) {
+    margin-top: 0 !important;
+    padding-top: 0;
+    border-top: none;
+  }
+
+  /* Bulleted lists read as compact insight/recommendation cards rather than a
+     long stack of dashes. */
+  .case-study-body :global(ul) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding-left: 0 !important;
+    margin-top: 1.25rem;
+  }
+  .case-study-body :global(ul > li) {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0.85rem 1.1rem !important;
+    border-radius: 0.6rem;
+    border: 1px solid var(--color-border);
+    border-left: 3px solid var(--color-brown);
+    background: var(--color-paper);
+  }
+  .case-study-body :global(ul > li::marker) {
+    content: none;
+  }
+  .case-study-body :global(ul > li > p) {
+    margin: 0 !important;
+  }
+
+  /* Editable notes / disclaimers rendered as <em> at paragraph level already
+     read as asides; give them a soft highlighted treatment. */
+  .case-study-body :global(p > em:only-child) {
+    display: block;
+    border-radius: 0.6rem;
+    background: var(--color-cream-dark);
+    border: 1px dashed var(--color-border-strong);
+    padding: 0.85rem 1.1rem;
+    font-size: 0.9rem;
+    color: color-mix(in srgb, var(--color-ink) 75%, transparent);
+  }
+
+  /* Bold "N. Heading" lines used inside Recommendations sections read as
+     mini sub-cards rather than plain bold paragraphs. */
+  .case-study-body :global(p > strong:first-child) {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    color: var(--color-charcoal);
+    margin-bottom: 0.35rem;
+  }
+</style>
