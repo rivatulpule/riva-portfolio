@@ -1,0 +1,171 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import DecodeCard from '../components/DecodeCard.astro';
+import ResumeButton from '../components/ResumeButton.astro';
+import { getCollection } from 'astro:content';
+
+const allWork = await getCollection('work', ({ data }) => !data.draft);
+const featuredWork = allWork
+  .filter((p) => p.data.order === 1 || p.data.order === 2)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const decodeEditions = (await getCollection('decode', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.number - a.data.number)
+  .slice(0, 2);
+---
+
+<BaseLayout
+  title="Riva Tulpule"
+  description="Riva Tulpule is a USC student studying Behavioral Economics & Psychology, exploring consumer behavior, brand strategy, and customer experience."
+>
+  <!-- HERO -->
+  <section class="mx-auto max-w-6xl px-5 pb-16 pt-14 sm:px-8 sm:pb-24 sm:pt-20">
+    <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+      <div>
+        <p class="font-serif-display text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-rust)]">
+          Consumer insights &amp; brand strategy
+        </p>
+        <h1 class="mt-4 font-serif-display text-4xl font-semibold leading-[1.1] text-[var(--color-charcoal)] sm:text-5xl lg:text-6xl">
+          Curious about why people choose what they choose.
+        </h1>
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-[var(--color-ink)]/90">
+          I'm a Behavioral Economics and Psychology student at USC interested in how brands influence
+          decision-making through storytelling, design, and experience. I'm especially drawn to the intersection of
+          consumer behavior, culture, and strategy, and enjoy translating insights into ideas that feel intuitive
+          and human.
+        </p>
+        <div class="mt-8 flex flex-wrap items-center gap-4">
+          <a
+            href="/work"
+            class="inline-flex items-center gap-2 rounded-full bg-[var(--color-brown)] px-6 py-3 text-sm font-semibold text-[var(--color-cream)] transition-colors hover:bg-[var(--color-brown-dark)]"
+          >
+            See my work
+          </a>
+          <a
+            href="/contact"
+            class="link-underline text-sm font-semibold text-[var(--color-charcoal)]"
+          >
+            Get in touch →
+          </a>
+          <ResumeButton variant="outline" />
+        </div>
+      </div>
+
+      <img
+        src="/images/site/headshot.jpg"
+        alt="Riva Tulpule standing in a sunlit colonnade on USC's campus"
+        class="aspect-[3/4] w-full rounded-lg object-cover"
+      />
+    </div>
+  </section>
+
+  <!-- FEATURED WORK -->
+  <section class="border-y border-[var(--color-border)] bg-[var(--color-cream-dark)]">
+    <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
+      <div class="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <p class="font-serif-display text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-rust)]">
+            Featured work
+          </p>
+          <h2 class="mt-2 font-serif-display text-3xl font-semibold text-[var(--color-charcoal)] sm:text-4xl">
+            Research that turns into recommendations
+          </h2>
+        </div>
+        <a href="/work" class="link-underline text-sm font-semibold text-[var(--color-brown)]">View all projects →</a>
+      </div>
+
+      <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
+        {featuredWork.map((project) => (
+          <ProjectCard
+            slug={project.id}
+            title={project.data.title}
+            subtitle={project.data.subtitle}
+            projectType={project.data.projectType}
+            category={project.data.category}
+            summary={project.data.summary}
+            coverImage={project.data.coverImage}
+            coverImageAlt={project.data.coverImageAlt}
+            featured
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- DECODE PREVIEW -->
+  <section class="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="font-serif-display text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-rust)]">
+          Original series
+        </p>
+        <h2 class="mt-2 font-serif-display text-3xl font-semibold text-[var(--color-charcoal)] sm:text-4xl">
+          Decode: The Why Behind The Buy
+        </h2>
+        <p class="mt-3 max-w-xl text-base leading-relaxed text-[var(--color-ink)]/85">
+          My ongoing series unpacking the psychology behind the brands we love, the products we choose, and the
+          experiences that shape us.
+        </p>
+      </div>
+      <a href="/decode" class="link-underline text-sm font-semibold text-[var(--color-brown)]">Read Decode →</a>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 gap-5">
+      {decodeEditions.map((edition) => (
+        <DecodeCard
+          slug={edition.id}
+          number={edition.data.number}
+          title={edition.data.title}
+          topic={edition.data.topic}
+          summary={edition.data.summary}
+          coverImage={edition.data.coverImage}
+          coverImageAlt={edition.data.coverImageAlt}
+        />
+      ))}
+    </div>
+  </section>
+
+  <!-- LEADERSHIP INTRO -->
+  <section class="border-y border-[var(--color-border)] bg-[var(--color-cream-dark)]">
+    <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-[0.9fr_1.1fr]">
+      <img
+        src="/images/leadership/wecaredxb-cover.jpg"
+        alt="WeCareDXB logo — a plant icon over the tagline 'Together let's make a difference'"
+        class="aspect-[16/9] w-full rounded-lg border border-[var(--color-border)] object-cover lg:order-2"
+      />
+      <div class="lg:order-1">
+        <p class="font-serif-display text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-rust)]">
+          Leadership &amp; impact
+        </p>
+        <h2 class="mt-2 font-serif-display text-3xl font-semibold text-[var(--color-charcoal)] sm:text-4xl">
+          WeCareDXB
+        </h2>
+        <p class="mt-4 max-w-xl text-base leading-relaxed text-[var(--color-ink)]/85">
+          I founded WeCareDXB in 2017, a student-led social impact organization now 300+ volunteers strong across
+          34 schools in the UAE and India — including an e-waste initiative that has recycled 50+ tonnes to date
+          and a menstrual health campaign that's supported 700+ girls in rural India.
+        </p>
+        <a href="/leadership" class="link-underline mt-5 inline-flex text-sm font-semibold text-[var(--color-brown)]">
+          Learn about the work →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING CTA -->
+  <section class="mx-auto max-w-6xl px-5 py-16 text-center sm:px-8 sm:py-24">
+    <h2 class="font-serif-display text-3xl font-semibold text-[var(--color-charcoal)] sm:text-4xl">
+      Let's talk about consumer behavior, strategy, or your next opening.
+    </h2>
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+      <a
+        href="/contact"
+        class="inline-flex items-center gap-2 rounded-full bg-[var(--color-brown)] px-6 py-3 text-sm font-semibold text-[var(--color-cream)] transition-colors hover:bg-[var(--color-brown-dark)]"
+      >
+        Contact me
+      </a>
+      <ResumeButton variant="outline" />
+    </div>
+  </section>
+</BaseLayout>

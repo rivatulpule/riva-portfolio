@@ -1,0 +1,149 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Placeholder from '../components/Placeholder.astro';
+import EditableNote from '../components/EditableNote.astro';
+---
+
+<BaseLayout
+  title="Leadership & Impact"
+  description="WeCareDXB — the student-led social impact organization founded by Riva Tulpule in 2017, spanning e-waste recycling, a sustainability edu-fest, menstrual health awareness, and disaster relief campaigns across the UAE and India."
+>
+  <section class="border-b border-[var(--color-border)] bg-[var(--color-cream-dark)]">
+    <div class="mx-auto max-w-4xl px-5 py-16 sm:px-8 sm:py-20">
+      <p class="font-serif-display text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-rust)]">
+        Leadership &amp; Impact
+      </p>
+      <h1 class="mt-2 font-serif-display text-4xl font-semibold text-[var(--color-charcoal)] sm:text-5xl">
+        WeCareDXB
+      </h1>
+      <p class="mt-3 text-lg italic text-[var(--color-brown)]">"Together, let's make a difference."</p>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-[var(--color-ink)]/85">
+        A student-led organization founded in 2017, focused on driving meaningful impact across communities through
+        sustainability, public health, and social support initiatives. What began as a small effort has grown into
+        a multi-initiative platform engaging students, schools, and organizations across the UAE and India.
+      </p>
+      <p class="mt-2 text-sm font-medium text-[var(--color-brown)]">Founder · May 2017 – Present · Dubai, UAE</p>
+
+      <div class="mt-8 max-w-xs">
+        <img
+          src="/images/leadership/wecaredxb-cover.jpg"
+          alt="WeCareDXB logo — a plant icon over the tagline 'Together let's make a difference'"
+          class="w-full rounded-lg border border-[var(--color-border)]"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-4xl px-5 py-14 sm:px-8 sm:py-20">
+    <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
+      <div>
+        <h2 class="font-serif-display text-2xl font-semibold text-[var(--color-charcoal)]">Mission</h2>
+        <p class="mt-3 text-base leading-relaxed text-[var(--color-ink)]/85">
+          WeCareDXB aims to create accessible, community-driven solutions that address real-world challenges while
+          fostering awareness, empathy, and collective action.
+        </p>
+      </div>
+      <div>
+        <h2 class="font-serif-display text-2xl font-semibold text-[var(--color-charcoal)]">My Role</h2>
+        <p class="mt-3 text-base leading-relaxed text-[var(--color-ink)]/85">
+          I founded WeCareDXB in 2017 and scaled it into a 300+ volunteer network across 34 schools in the UAE and
+          India, building and managing the corporate and NGO partnerships behind every campaign below. Today,
+          WeCareDXB continues to evolve, with my sister Risha Tulpule carrying the legacy forward and expanding its
+          reach.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h2 class="font-serif-display text-2xl font-semibold text-[var(--color-charcoal)]">Projects &amp; Initiatives</h2>
+
+      <div class="mt-8 space-y-8">
+        <div class="rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-6">
+          <h3 class="font-serif-display text-xl font-semibold text-[var(--color-charcoal)]">♻️ E-Waste Recycling Initiative</h3>
+          <ul class="mt-3 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink)]/85">
+            <li>Launched in 2017 to address improper disposal of electronic waste</li>
+            <li>Successfully recycled 50+ tonnes of e-waste across communities in the UAE to date</li>
+            <li>Partnered with Enviroserve to ensure responsible recycling practices</li>
+          </ul>
+        </div>
+
+        <div class="rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-6">
+          <h3 class="font-serif-display text-xl font-semibold text-[var(--color-charcoal)]">Sustainability Edu-Fest</h3>
+          <ul class="mt-3 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink)]/85">
+            <li>Co-hosted the first Annual Sustainability Edu-Fest in collaboration with Enviroserve and GEMS Modern Academy</li>
+            <li>Brought together 360+ students from 46 schools across the UAE</li>
+            <li>Designed and executed 5 sustainability-focused competitions — e-waste recycling, research, art, video, and photography</li>
+            <li>Selected the top 3 finalists per category for a final symposium and awards ceremony (May 2022)</li>
+            <li>Featured industry leaders from Stanford University, Enviroserve, Samsung Gulf, Chalhoub Group, and GEMS Education</li>
+            <li>Secured partnerships with Samsung and Chalhoub Group for sponsorships and awards</li>
+          </ul>
+        </div>
+
+        <div class="rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-6">
+          <h3 class="font-serif-display text-xl font-semibold text-[var(--color-charcoal)]">🩺 Menstrual Health Awareness Campaign</h3>
+          <ul class="mt-3 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink)]/85">
+            <li>Conducted awareness sessions and distribution drives in rural India</li>
+            <li>Supported 700+ girls with access to menstrual hygiene products and education</li>
+            <li>Focused on breaking stigma and increasing awareness at the community level</li>
+          </ul>
+        </div>
+
+        <div class="rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-6">
+          <h3 class="font-serif-display text-xl font-semibold text-[var(--color-charcoal)]">📦 COVID Kindness Packs Campaign</h3>
+          <ul class="mt-3 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink)]/85">
+            <li>Distributed essential grocery kits to 200 blue-collar workers affected during the pandemic</li>
+            <li>Partnered with OMPK, a local Dubai grocery store, for dry grocery item supply</li>
+          </ul>
+        </div>
+
+        <div class="rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-6">
+          <h3 class="font-serif-display text-xl font-semibold text-[var(--color-charcoal)]">🌊 Konkan Flood Relief Campaign</h3>
+          <ul class="mt-3 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink)]/85">
+            <li>Collected and distributed 2.5 tonnes of relief material to flood-affected communities</li>
+            <li>Organized large-scale donation drives to support impacted communities</li>
+          </ul>
+        </div>
+
+        <div class="rounded-lg border border-[var(--color-border)] bg-[var(--color-paper)] p-6">
+          <h3 class="font-serif-display text-xl font-semibold text-[var(--color-charcoal)]">🎁 Box of Happiness Campaign</h3>
+          <ul class="mt-3 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink)]/85">
+            <li>Distributed care packages to workers and underserved communities in Dubai</li>
+            <li>Focused on spreading joy, appreciation, and support through small but meaningful gestures</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-16 grid grid-cols-1 gap-10 lg:grid-cols-2">
+      <div>
+        <h2 class="font-serif-display text-2xl font-semibold text-[var(--color-charcoal)]">
+          School Outreach &amp; Partnerships
+        </h2>
+        <p class="mt-3 text-base leading-relaxed text-[var(--color-ink)]/85">
+          WeCareDXB's ongoing network spans 34 schools across the UAE and India, and the inaugural Sustainability
+          Edu-Fest alone engaged 46 schools — supported throughout by corporate and NGO partners including
+          Enviroserve, Samsung Gulf, Chalhoub Group, GEMS Education, and OMPK.
+        </p>
+      </div>
+      <div>
+        <h2 class="font-serif-display text-2xl font-semibold text-[var(--color-charcoal)]">Recognition</h2>
+        <ul class="mt-3 space-y-2 text-base leading-relaxed text-[var(--color-ink)]/85">
+          <li>🏆 Eco-Hero Award (USA)</li>
+          <li>🏆 Diana Award (UK)</li>
+          <li>🏆 Hamdan Award (UAE)</li>
+        </ul>
+        <EditableNote class="mt-3">
+          add the year(s) received and any details about each award you'd like included.
+        </EditableNote>
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h2 class="font-serif-display text-2xl font-semibold text-[var(--color-charcoal)]">Campaign Photos</h2>
+      <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <Placeholder label="WeCareDXB campaign photo" aspect="wide" />
+        <Placeholder label="WeCareDXB campaign photo" aspect="wide" />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
