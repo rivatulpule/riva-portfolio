@@ -8,6 +8,15 @@ order: 3
 coverImage: "/images/work/retail-signage-example.jpg"
 coverImageAlt: "A Woolworths in-store digital sign displaying a COVID check-in message — an example of today's passive, one-way retail signage"
 draft: false
+atAGlance:
+  - label: "Role"
+    value: "Independent strategy concept"
+  - label: "Methods"
+    value: "Industry research · retailer case studies (Kroger, Wakefern, Whole Foods)"
+  - label: "Focus"
+    value: "Digital signage as a functional commerce tool"
+  - label: "Deliverable"
+    value: "Endless-aisle & personalization concept"
 ---
 
 ## The Challenge

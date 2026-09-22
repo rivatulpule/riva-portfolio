@@ -8,6 +8,15 @@ order: 4
 coverImage: "/images/work/magic-spoon-redesign.jpg"
 coverImageAlt: "Riva's conceptual Magic Spoon logo redesign — a cursive 'magic spoon' wordmark with a yellow wand replacing the letter i"
 draft: false
+atAGlance:
+  - label: "Role"
+    value: "Self-directed branding exercise"
+  - label: "Methods"
+    value: "Brand & logo-design principles · Hick's Law"
+  - label: "Focus"
+    value: "Nostalgia vs. modern wellness positioning"
+  - label: "Deliverable"
+    value: "One alternative logo concept"
 ---
 
 <em>This is an independent conceptual redesign created for personal portfolio purposes. It is not official work for Magic Spoon, was not commissioned by the brand, and is not affiliated with the company in any way.</em>

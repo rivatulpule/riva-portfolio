@@ -8,6 +8,15 @@ order: 1
 coverImage: "/images/work/jenan-cover.jpg"
 coverImageAlt: "Jenan logo"
 draft: false
+atAGlance:
+  - label: "Role"
+    value: "Consumer Marketing Intern, Al Ghurair Foods"
+  - label: "Methods"
+    value: "NielsenIQ retail analysis · in-market observation · competitive benchmarking"
+  - label: "Focus"
+    value: "Oats, flour & poultry packaging and shelf execution"
+  - label: "Scope"
+    value: "15 UAE markets"
 ---
 
 ## The Challenge

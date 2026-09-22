@@ -8,6 +8,15 @@ order: 5
 coverImage: "/images/work/redbull-cans.jpg"
 coverImageAlt: "Red Bull cans on ice"
 draft: false
+atAGlance:
+  - label: "Role"
+    value: "Independent positioning & campaign exploration"
+  - label: "Methods"
+    value: "Market trend research · persona & positioning strategy"
+  - label: "Focus"
+    value: "Everyday ambition vs. adrenaline occasions"
+  - label: "Target"
+    value: "Young professionals, 23–40"
 ---
 
 <em>This is an independent strategy concept developed for portfolio purposes. It is not an official Red Bull campaign, was not commissioned by the brand, and is not intended to suggest Red Bull lacks existing relevance in these contexts.</em>

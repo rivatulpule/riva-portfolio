@@ -8,6 +8,15 @@ order: 2
 coverImage: "/images/work/lucilles-cover.jpg"
 coverImageAlt: "Lucille's Smokehouse Bar-B-Que logo"
 draft: false
+atAGlance:
+  - label: "Role"
+    value: "Research partner to Lucille's VP of Marketing & team"
+  - label: "Methods"
+    value: "Primary survey research · secondary hospitality research"
+  - label: "Focus"
+    value: "Post-visit drop-off & repeat-visit behavior"
+  - label: "Scope"
+    value: "100+ respondents across two datasets"
 ---
 
 ## The Challenge

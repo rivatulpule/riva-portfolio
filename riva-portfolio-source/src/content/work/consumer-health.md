@@ -8,6 +8,15 @@ order: 6
 coverImage: "/images/work/maha-moms.jpg"
 coverImageAlt: "'Make America Healthy Again' and 'MAHA Moms' signs held up at a public event"
 draft: false
+atAGlance:
+  - label: "Role"
+    value: "Independent consumer trends analysis"
+  - label: "Methods"
+    value: "Behavioral trend research across CPG categories"
+  - label: "Focus"
+    value: "Ingredient transparency & consumer trust"
+  - label: "Lens"
+    value: "Consumer behavior & brand communication, not movement politics"
 ---
 
 ## The Challenge
