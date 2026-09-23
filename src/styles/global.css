@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* Fraunces + Inter are loaded via Google Fonts <link> tags in BaseLayout.astro */
+
+@theme {
+  /* -- Sophisticated, confident palette: ivory / deep teal / sage / coral / charcoal --
+     Variable names below are historical (--color-brown, --color-rust) but now hold
+     the teal/coral values — kept as-is so every existing usage updates from one place. */
+  --color-cream: #fafaf7;        /* clean ivory — main background */
+  --color-cream-dark: #dcebe7;   /* pale sage — subtle section backgrounds */
+  --color-paper: #ffffff;        /* card background */
+  --color-ink: #252b2b;          /* charcoal — body text */
+  --color-charcoal: #1e2424;     /* charcoal — headings, slightly deeper */
+  --color-brown: #176b70;        /* deep teal — primary accents, buttons, selected headings */
+  --color-brown-dark: #0f4b4f;   /* deep teal, darkened — hover / emphasis */
+  --color-rust: #d97b70;         /* muted coral — occasional small details */
+  --color-olive: #6b6b3a;        /* unused legacy token, kept for compatibility */
+  --color-border: #c9ddd8;       /* sage-tinted border */
+  --color-border-strong: #a9c9c1;
+
+  --font-serif: 'Fraunces', 'Iowan Old Style', 'Georgia', 'Times New Roman', serif;
+  --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background-color: var(--color-rust);
+  color: var(--color-cream);
+}
+
+/* Visible, high-contrast focus ring for keyboard users */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-rust);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+}
+
+/* Underline-on-hover link style used across editorial body copy */
+.link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.25s ease;
+}
+.link-underline:hover,
+.link-underline:focus-visible {
+  background-size: 100% 1px;
+}

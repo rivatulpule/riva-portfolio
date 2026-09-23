@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="About"
+  description="Riva Tulpule is a Behavioral Economics & Psychology student at USC, raised in Dubai, exploring consumer insights, brand strategy, and customer experience."
+>
+  <!-- SECTION 1: INTRODUCTION -->
+  <section class="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
+    <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
+      <img
+        src="/images/site/about-campus.jpg"
+        alt="Riva smiling on USC's campus lawn, arms outstretched"
+        class="aspect-[4/5] w-full rounded-lg object-cover"
+      />
+      <div>
+        <p class="font-serif-display text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-rust)]">
+          A little about me
+        </p>
+        <h1 class="mt-3 font-serif-display text-4xl font-semibold text-[var(--color-charcoal)] sm:text-5xl">
+          Hey! I'm Riva :)
+        </h1>
+        <p class="mt-6 text-lg leading-relaxed text-[var(--color-ink)]/90">
+          I grew up in Dubai and now study Behavioral Economics &amp; Psychology at USC, with a minor in Customer
+          Analytics. Somewhere along the way, I realized that the questions I find myself asking in everyday life
+          are the same ones that sit at the heart of consumer insights: Why did someone pick that product? What
+          makes a brand feel familiar? Why do certain experiences stay with us?
+        </p>
+        <p class="mt-5 text-lg leading-relaxed text-[var(--color-ink)]/90">
+          I've explored those questions through shopper research, consumer insights, and strategy projects, from
+          observing purchase decisions in grocery stores to studying what brings restaurant customers back. I enjoy
+          finding the small details that reveal something bigger about how people think and behave.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: DECODE -->
+  <section class="border-y border-[var(--color-border)] bg-[var(--color-cream-dark)]">
+    <div class="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
+      <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+        <div>
+          <p class="font-serif-display text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-rust)]">
+            An original series
+          </p>
+          <h2 class="mt-3 font-serif-display text-3xl font-semibold text-[var(--color-charcoal)] sm:text-4xl">
+            The Why Behind The Buy
+          </h2>
+          <p class="mt-5 text-lg leading-relaxed text-[var(--color-ink)]/90">
+            That curiosity also led me to create Decode: The Why Behind The Buy, my original series exploring the
+            psychology behind familiar brands and everyday choices. It's where I get to follow a question simply
+            because I can't stop thinking about it.
+          </p>
+          <a
+            href="/decode"
+            class="mt-6 inline-flex items-center gap-2 rounded-full bg-[var(--color-brown)] px-6 py-3 text-sm font-semibold text-[var(--color-cream)] transition-colors hover:bg-[var(--color-brown-dark)]"
+          >
+            Explore Decode →
+          </a>
+        </div>
+        <img
+          src="/images/decode/001-coke-cover.jpg"
+          alt="Decode flat-lay: a personalized Share a Coke bottle beside notes on the self-reference effect"
+          class="aspect-[4/3] w-full rounded-lg border border-[var(--color-border)] object-cover"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: OUTSIDE OF WORK -->
+  <section class="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
+    <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+      <div>
+        <p class="font-serif-display text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-rust)]">
+          Beyond the resume
+        </p>
+        <h2 class="mt-3 font-serif-display text-3xl font-semibold text-[var(--color-charcoal)] sm:text-4xl">
+          A little more me.
+        </h2>
+        <p class="mt-5 text-lg leading-relaxed text-[var(--color-ink)]/90">
+          Music is a pretty big part of my life. I'm usually discovering a new band, making an oddly specific
+          Spotify playlist, or figuring out which concert I want to go to next. I love a good guitar riff, a strong
+          cup of coffee, and Snoopy.
+        </p>
+        <p class="mt-5 text-lg leading-relaxed text-[var(--color-ink)]/90">
+          When I'm not doing any of that, I'm probably writing, getting lost in a new idea, or finding something
+          completely ordinary to be unnecessarily curious about.
+        </p>
+      </div>
+      <div class="flex flex-col gap-3 sm:flex-row">
+        <img
+          src="/images/site/about-snoopy.jpg"
+          alt="Riva hugging a large Snoopy plush in a store"
+          class="aspect-[3/4] w-full rounded-lg object-cover sm:w-[60%]"
+        />
+        <div class="flex gap-3 sm:w-[40%] sm:flex-col">
+          <img
+            src="/images/site/about-concert.jpg"
+            alt="Riva at a live concert with performers on stage"
+            class="aspect-square w-1/2 rounded-lg object-cover sm:w-full"
+          />
+          <img
+            src="/images/site/about-coffee.jpg"
+            alt="A cup of Turkish coffee on a patterned saucer"
+            class="aspect-square w-1/2 rounded-lg object-cover sm:w-full"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: EXPLORE MORE -->
+  <section class="border-t border-[var(--color-border)] bg-[var(--color-cream-dark)]">
+    <div class="mx-auto max-w-3xl px-5 py-16 text-center sm:px-8 sm:py-20">
+      <h2 class="font-serif-display text-3xl font-semibold text-[var(--color-charcoal)] sm:text-4xl">
+        Curious to see what I've been working on?
+      </h2>
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+        <a
+          href="/work"
+          class="inline-flex items-center gap-2 rounded-full bg-[var(--color-brown)] px-6 py-3 text-sm font-semibold text-[var(--color-cream)] transition-colors hover:bg-[var(--color-brown-dark)]"
+        >
+          Explore My Work
+        </a>
+        <a
+          href="/decode"
+          class="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-semibold text-[var(--color-charcoal)] transition-colors hover:border-[var(--color-brown)] hover:text-[var(--color-brown)]"
+        >
+          Read Decode
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

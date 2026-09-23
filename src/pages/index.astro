@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ResumeButton from '../components/ResumeButton.astro';
+---
+
+<BaseLayout
+  title="Riva Tulpule"
+  description="Riva Tulpule is a USC student studying Behavioral Economics & Psychology, exploring consumer behavior, brand strategy, and customer experience."
+>
+  <!-- HERO / INTRO ONLY -->
+  <section class="mx-auto flex min-h-[calc(100vh-73px)] max-w-6xl items-center px-5 py-16 sm:px-8 sm:py-20">
+    <div class="grid w-full grid-cols-1 items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+      <div>
+        <p class="font-serif-display text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-rust)]">
+          Consumer insights &amp; brand strategy
+        </p>
+        <h1 class="mt-4 font-serif-display text-4xl font-semibold leading-[1.1] text-[var(--color-charcoal)] sm:text-5xl lg:text-6xl">
+          Curious about why people choose what they choose.
+        </h1>
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-[var(--color-ink)]/90">
+          I'm Riva, a Behavioral Economics &amp; Psychology student at USC with a minor in Customer Analytics. I'm
+          fascinated by the little things that shape our decisions, from what catches our eye on a supermarket shelf
+          to the brands we keep coming back to. Through research and strategy, I explore what people notice, value,
+          and trust, and turn those insights into ideas that make sense for both people and brands.
+        </p>
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a
+            href="/about"
+            class="inline-flex items-center gap-2 rounded-full bg-[var(--color-brown)] px-6 py-3 text-sm font-semibold text-[var(--color-cream)] transition-colors hover:bg-[var(--color-brown-dark)]"
+          >
+            About Me
+          </a>
+          <a
+            href="/work"
+            class="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-semibold text-[var(--color-charcoal)] transition-colors hover:border-[var(--color-brown)] hover:text-[var(--color-brown)]"
+          >
+            My Work
+          </a>
+          <a
+            href="/decode"
+            class="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-semibold text-[var(--color-charcoal)] transition-colors hover:border-[var(--color-brown)] hover:text-[var(--color-brown)]"
+          >
+            Decode
+          </a>
+          <a
+            href="/leadership"
+            class="inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] px-6 py-3 text-sm font-semibold text-[var(--color-charcoal)] transition-colors hover:border-[var(--color-brown)] hover:text-[var(--color-brown)]"
+          >
+            Leadership &amp; Impact
+          </a>
+          <a
+            href="/contact"
+            class="link-underline text-sm font-semibold text-[var(--color-charcoal)]"
+          >
+            Contact →
+          </a>
+        </div>
+        <div class="mt-5">
+          <ResumeButton variant="outline" />
+        </div>
+      </div>
+
+      <img
+        src="/images/site/headshot.jpg"
+        alt="Riva Tulpule standing in a sunlit colonnade on USC's campus"
+        class="aspect-[3/4] w-full rounded-lg object-cover"
+      />
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,32 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-[var(--color-border)] bg-[var(--color-cream-dark)]">
+  <div class="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+    <div>
+      <p class="font-serif-display text-lg font-semibold text-[var(--color-charcoal)]">Riva Tulpule</p>
+      <p class="mt-1 max-w-sm text-sm text-[var(--color-ink)]/80">
+        Behavioral Economics &amp; Psychology, USC · Consumer insights, brand strategy, and the psychology behind the everyday choices we make.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-medium">
+      <a href="/work" class="link-underline text-[var(--color-charcoal)]">Work</a>
+      <a href="/decode" class="link-underline text-[var(--color-charcoal)]">Decode</a>
+      <a href="/leadership" class="link-underline text-[var(--color-charcoal)]">Leadership</a>
+      <a href="/contact" class="link-underline text-[var(--color-charcoal)]">Contact</a>
+      <a
+        href="https://www.linkedin.com/in/rivatulpule/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link-underline text-[var(--color-charcoal)]"
+      >
+        LinkedIn
+      </a>
+    </div>
+  </div>
+  <div class="border-t border-[var(--color-border)] px-5 py-4 text-center text-xs text-[var(--color-ink)]/60 sm:px-8">
+    © {year} Riva Tulpule. Built with Astro.
+  </div>
+</footer>
