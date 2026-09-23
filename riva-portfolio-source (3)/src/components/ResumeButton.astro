@@ -1,0 +1,31 @@
+---
+interface Props {
+  class?: string;
+  variant?: 'solid' | 'outline';
+}
+const { class: className = '', variant = 'solid' } = Astro.props;
+
+const base =
+  'inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold tracking-wide transition-colors duration-200';
+const solid =
+  'bg-[var(--color-brown)] text-[var(--color-cream)] hover:bg-[var(--color-brown-dark)]';
+const outline =
+  'border border-[var(--color-brown)] text-[var(--color-brown)] hover:bg-[var(--color-brown)] hover:text-[var(--color-cream)]';
+---
+
+<!--
+  TODO: Replace href with your real resume PDF once uploaded, e.g. "/resume/riva-tulpule-resume.pdf".
+  Place the PDF file in the /public/resume/ folder and it will be served at that exact path.
+-->
+<a
+  href="/resume/riva-tulpule-resume.pdf"
+  class={`${base} ${variant === 'solid' ? solid : outline} ${className}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Download Riva Tulpule's resume (PDF)"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" class="h-4 w-4" aria-hidden="true">
+    <path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" />
+  </svg>
+  Resume
+</a>

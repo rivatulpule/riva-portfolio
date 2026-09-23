@@ -1,0 +1,16 @@
+---
+// A clearly-flagged note for missing or unverified content, approved
+// materials, exact dates, employer names, etc. Delete the note once you've
+// filled in the real content; never let a note like this be mistaken for
+// finished copy.
+interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props;
+---
+
+<div
+  class={`editable-note ${className} border-l-2 border-[var(--color-rust)] bg-[var(--color-cream-dark)]/60 py-2 pl-4 pr-3 text-sm italic text-[var(--color-brown-dark)]`}
+>
+  <span class="not-italic font-semibold uppercase tracking-wide text-xs text-[var(--color-rust)]">Editable note, </span><slot />
+</div>
