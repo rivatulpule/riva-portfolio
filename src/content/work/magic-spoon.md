@@ -57,7 +57,33 @@ Each color carries intent: purple for imagination and fantasy, white for trust a
 
 ![Riva's conceptual Magic Spoon logo redesign, a cursive 'magic spoon' wordmark in cream on purple, with a yellow wand and sparkle replacing the letter i in "magic"](/images/work/magic-spoon-redesign.jpg)
 
-<em>Editable note, add any additional logo iterations or packaging mockups here if you develop them further.</em>
+**Ideation process**
+
+Getting to the final concept took a few rounds of iteration, testing different ways to work the wand and spoon motif into the wordmark before landing on the final direction:
+
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin:1rem 0;">
+<div>
+
+![Early iteration replacing the letter i with a plain grey spoon](/images/work/magic-spoon-ideation-1.jpg)
+
+*Early spoon-as-letterform test*
+
+</div>
+<div>
+
+![Iteration exploring an oval bowl-rim outline around the wordmark](/images/work/magic-spoon-ideation-2.jpg)
+
+*Bowl-rim framing concept*
+
+</div>
+<div>
+
+![Iteration testing the wand-and-sparkle motif on the original sans-serif wordmark](/images/work/magic-spoon-ideation-3.jpg)
+
+*Wand motif, pre-final typeface*
+
+</div>
+</div>
 
 ## Reflection
 

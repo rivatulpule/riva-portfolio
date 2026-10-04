@@ -62,9 +62,9 @@ LinkedIn-first campaigns, an "After Work" event series, and partnerships with cr
 
 *Red Bull's existing product and brand world, the visual identity this concept builds on, not replaces.*
 
-![A polished LinkedIn sponsored-ad mockup reading "Fuel Your Ambition. Power Your Passion."](/images/work/redbull-linkedin-ad-mockup.jpg)
+![Concept packaging for "Red Bull In The Workplace," two cans labeled "Morning Momentum" and "2 PM Rally"](/images/work/redbull-workplace-cans.jpg)
 
-*A concept LinkedIn ad mockup bringing the "everyday ambition" repositioning to life for the workplace-focused promotion strategy.*
+*Concept packaging for the workplace-occasion strategy: "Morning Momentum" and "2 PM Rally" cans, designed around the specific moments this repositioning targets.*
 
 ## Reflection
 
