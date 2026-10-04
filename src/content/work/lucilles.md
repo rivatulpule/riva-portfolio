@@ -21,7 +21,7 @@ atAGlance:
 
 ## The Challenge
 
-Lucille's Barbecue faces strong initial customer acquisition driven by location, reputation, and occasion-based dining. But like many casual dining restaurants, the brand struggles with post-visit drop-off, customers don't return frequently enough to drive long-term value. The challenge was to identify *why* customers weren't returning, and to design strategies to increase repeat visits and long-term engagement.
+Lucille's Barbecue faces strong initial customer acquisition driven by location, reputation, and occasion-based dining. But like many casual dining restaurants, the brand struggles with post-visit drop-off, customers don't return frequently enough to drive long-term value. The challenge was to identify why customers weren't returning, and to design strategies to increase repeat visits and long-term engagement.
 
 ## My Role & Approach
 
@@ -42,7 +42,7 @@ A few distinct threads emerged from the data:
 
 ## Key Insights
 
-I defined the core problem as a **retention gap, not an acquisition issue.** Three behavioral barriers stood out:
+I defined the core problem as a retention gap, not an acquisition issue. Three behavioral barriers stood out:
 
 - No habit formation after the first visit, nothing prompted a guest to think of Lucille's again.
 - An overwhelming menu that led to indecision, especially for first-timers.
@@ -67,7 +67,9 @@ Curated menu options to reduce overwhelm, guiding customers, especially first-ti
 
 ## Visual Deliverables
 
-<em>Editable note, add an approved, anonymized research chart and any visuals from the project presentation once cleared for public display.</em>
+![An infographic titled "Where Are We Losing People?" showing drop-off stats of 94.14%, 67.6%, and 60% across the customer journey](/images/work/lucilles-retention-stats.jpg)
+
+*Where the retention gap actually shows up in the data, the exact drop-off points that shaped the recommendations above.*
 
 ## Reflection
 

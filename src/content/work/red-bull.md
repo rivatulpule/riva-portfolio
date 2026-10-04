@@ -41,9 +41,9 @@ The key insight: consumers increasingly don't separate "work mode" and "life mod
 
 ## Target & Strategic Shift
 
-**Target persona**: young professionals (23–40), career-driven but health-conscious, seeking energy without compromising identity.
+<span style="font-weight:700;color:var(--color-charcoal)">Target persona:</span> young professionals (23–40), career-driven but health-conscious, seeking energy without compromising identity.
 
-**Strategic shift**: from adrenaline and risk, to ambition and performance across contexts. The reframed idea: Red Bull isn't just for peak moments, it fuels everyday ambition.
+<span style="font-weight:700;color:var(--color-charcoal)">Strategic shift:</span> from adrenaline and risk, to ambition and performance across contexts. The reframed idea: Red Bull isn't just for peak moments, it fuels everyday ambition.
 
 ## The Concept: "You Can Be Both"
 
@@ -62,7 +62,9 @@ LinkedIn-first campaigns, an "After Work" event series, and partnerships with cr
 
 *Red Bull's existing product and brand world, the visual identity this concept builds on, not replaces.*
 
-<em>Editable note, add campaign concept visuals, packaging mockups, or content examples here if you develop them further.</em>
+![A polished LinkedIn sponsored-ad mockup reading "Fuel Your Ambition. Power Your Passion."](/images/work/redbull-linkedin-ad-mockup.jpg)
+
+*A concept LinkedIn ad mockup bringing the "everyday ambition" repositioning to life for the workplace-focused promotion strategy.*
 
 ## Reflection
 

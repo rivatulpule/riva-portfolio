@@ -63,6 +63,10 @@ I reframed digital signage as a functional commerce tool rather than an advertis
 
 *An example of today's default: signage used for one-way, passive messaging rather than active shopper assistance, the exact gap this concept addresses. (Photo of an existing Woolworths installation, shown for reference, not my design.)*
 
+![A shopper using an in-store digital kiosk, part of an "Endless Aisle" concept, alongside a retail aisle lined with digital kiosks](/images/work/future-retail-endless-aisle.jpg)
+
+*The endless-aisle concept in practice: a shopper ordering an out-of-stock item directly from an in-store kiosk, the kind of active, functional signage this concept proposes.*
+
 <em>Editable note, this is a conceptual exploration, not a built or launched product. Add shopper journey diagrams and any interface mockups you develop for this concept.</em>
 
 ## Reflection

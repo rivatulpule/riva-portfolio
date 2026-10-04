@@ -62,7 +62,9 @@ Underneath those tensions sits an emerging consumer archetype: **informed but ov
 
 *The MAHA movement itself, shown here for context, this project analyzes the consumer behavior and brand-trust shift around it, not the movement's politics or policy positions. (Photo shown for reference, not my design.)*
 
-<em>Editable note, add any supporting visuals, category comparisons, or research graphics here if you develop them further.</em>
+![An infographic titled "Why MAHA Matters Now" with statistics on consumer attitudes toward ultra-processed foods](/images/work/maha-why-it-matters-stats.jpg)
+
+*The data behind the shift: why ingredient transparency has moved from a niche concern to a mainstream purchase driver.*
 
 ## Reflection
 

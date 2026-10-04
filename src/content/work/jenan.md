@@ -82,7 +82,41 @@ Based on category trends, competitor offerings, promoter conversations, and obse
 
 ## Visual Deliverables
 
-<em>Editable note, add approved market-visit photos, the proposed chicken packaging concept, and any shelf-comparison visuals here once cleared for public display.</em>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
+<div>
+
+![Proposed Jenan chicken packaging redesign with a large transparent product window and "100% UAE Farm Fresh Chicken" messaging](/images/work/jenan-redesign-concept.jpg)
+
+*Proposed redesign*
+
+</div>
+<div>
+
+![Current Jenan chicken packaging with a green background and farm illustration](/images/work/jenan-existing-package.jpg)
+
+*Current packaging*
+
+</div>
+</div>
+
+For comparison, here is how two competitors approach the same shelf:
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
+<div>
+
+![Al Rawdah competitor chicken breast packaging](/images/work/jenan-competitor-al-rawdah.jpg)
+
+*Al Rawdah — competitor chicken breast packaging*
+
+</div>
+<div>
+
+![Al Youm competitor chicken breast fillet packaging](/images/work/jenan-competitor-al-youm.jpg)
+
+*Al Youm — competitor chicken breast fillet packaging*
+
+</div>
+</div>
 
 ## Reflection
 
