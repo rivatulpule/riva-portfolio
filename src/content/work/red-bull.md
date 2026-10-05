@@ -45,26 +45,49 @@ The key insight: consumers increasingly don't separate "work mode" and "life mod
 
 <span style="font-weight:700;color:var(--color-charcoal)">Strategic shift:</span> from adrenaline and risk, to ambition and performance across contexts. The reframed idea: Red Bull isn't just for peak moments, it fuels everyday ambition.
 
-## The Concept: "You Can Be Both"
+## Expanding the Brand Occasion
+
+The opportunity is not to replace Red Bull's existing identity, but to extend the performance mindset behind it into additional moments of everyday life. I explored how that shift could move from brand positioning into specific occasions and activations.
+
+### 05.1 — Expand the Occasion, Not the Identity
+
+![Brand expansion framework showing Red Bull's core equity of adrenaline, energy, and performance bridging into a high-performance mindset, expanded occasions like work, personal goals, and creative pursuits, and new relevance as everyday ambition](/images/work/redbull-brand-framework.jpg)
+
+*The shift: preserve Red Bull's performance equity while allowing that same mindset to show up across more parts of everyday life.*
+
+### 05.2 — Designing Around the Workday
+
+![The Workday Occasion Map, showing example moments across a professional's day, from Morning Momentum at 8:30am through After Work at 7pm, each paired with a role energy could play](/images/work/redbull-workday-occasion-map.jpg)
+
+*The shift: instead of defining the audience only by who they are, the strategy identifies the moments when performance and energy become relevant.*
+
+### 05.3 — From Positioning to Activation
+
+**"You Can Be Both"**
 
 **Product**
-Workplace-oriented packaging (concept name: "Morning Momentum") and desk kits paired with productivity tools.
 
-**Placement**
-Coworking spaces, office vending machines, and corporate wellness programs, meeting young professionals in environments already associated with ambition.
-
-**Promotion**
-LinkedIn-first campaigns, an "After Work" event series, and partnerships with creators who embody both career success and personal passion.
-
-## Visual Deliverables
-
-![Red Bull cans on ice](/images/work/redbull-cans.jpg)
-
-*Red Bull's existing product and brand world, the visual identity this concept builds on, not replaces.*
+Workplace-oriented packaging such as "Morning Momentum" and "2 PM Rally," plus desk kits paired with productivity tools.
 
 ![Concept packaging for "Red Bull In The Workplace," two cans labeled "Morning Momentum" and "2 PM Rally"](/images/work/redbull-workplace-cans.jpg)
 
-*Concept packaging for the workplace-occasion strategy: "Morning Momentum" and "2 PM Rally" cans, designed around the specific moments this repositioning targets.*
+*Concept packaging translating the strategy into specific workplace energy occasions: "Morning Momentum" and "2 PM Rally."*
+
+**Placement**
+
+Coworking spaces, office vending machines, and corporate wellness programs, meeting young professionals in environments already associated with ambition.
+
+**Promotion**
+
+LinkedIn-first campaigns, an "After Work" event series, and partnerships with creators who embody both career success and personal passion.
+
+## Stress-Testing the Strategy
+
+Expanding a strong brand into new occasions also creates risks. I stress-tested the concept against three potential challenges and considered how the strategy could grow without weakening Red Bull's existing equity.
+
+![A framework protecting the brand while expanding it, covering three risks: core audience alienation, entrenched coffee habits, and a crowded functional beverage market, each paired with a strategic response](/images/work/redbull-stress-test.jpg)
+
+*The principle: growth should layer new meaning onto the brand, not trade away the equity that made it distinctive.*
 
 ## Reflection
 

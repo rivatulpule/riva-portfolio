@@ -37,8 +37,6 @@ A few behavioral shifts stood out:
 
 The insight that tied this together: **trust is no longer built through branding alone, it's built through perceived honesty.**
 
-<em>Editable note, the trends above reflect patterns I researched during this independent project rather than a single proprietary study. Add specific sources here if you'd like to cite them directly, and avoid presenting this as a claim about a proven, market-wide behavioral shift without supporting data.</em>
-
 ## Key Insights
 
 Three tensions define what brands have to navigate in this space:
@@ -49,22 +47,31 @@ Three tensions define what brands have to navigate in this space:
 
 Underneath those tensions sits an emerging consumer archetype: **informed but overwhelmed**, health-conscious but convenience-driven, skeptical but still brand-influenced.
 
-## Recommendations
+## Mapping the Trust Gap
 
-- **Simplify ingredient communication**, prioritize front-of-pack clarity over dense back-of-pack claims.
-- **Replace vague claims with specific, verifiable messaging**, "clean" and "natural" only build trust when they're checkable.
-- **Build trust through education, not just advertising**, help consumers understand *why* an ingredient matters, not just that it's absent.
-- **Leverage behavioral nudges**, defaults (making clean ingredients the baseline, not the upsell) and framing (leading with clarity over fear).
+To understand how that tension actually plays out, I mapped it across three levels: the path a shopper walks from seeing a product to deciding whether to trust it, the psychology driving that walk, and the shift in brand communication that could ease it.
 
-## Visual Deliverables
+### 05.1 — The New Ingredient Decision Journey
 
-![Signs reading "Make America Healthy Again" and "MAHA Moms" held up at a public event](/images/work/maha-moms.jpg)
+![A seven-step consumer decision journey from seeing a product through checking the front of pack, flipping the package, interpreting ingredients, validating online, weighing trust or doubt, and finally buying, switching, or skipping](/images/work/maha-ingredient-journey.jpg)
 
-*The MAHA movement itself, shown here for context, this project analyzes the consumer behavior and brand-trust shift around it, not the movement's politics or policy positions. (Photo shown for reference, not my design.)*
+*The takeaway: trust isn't lost at a single moment, it accumulates or erodes across each step of this decision path.*
 
-![An infographic titled "Why MAHA Matters Now" with statistics on consumer attitudes toward ultra-processed foods](/images/work/maha-why-it-matters-stats.jpg)
+### 05.2 — The Informed But Overwhelmed Consumer
 
-*The data behind the shift: why ingredient transparency has moved from a niche concern to a mainstream purchase driver.*
+![A framework covering what consumers want, what they do, what creates friction, the contradiction they face, and the brand opportunity it creates](/images/work/maha-overwhelmed-consumer.jpg)
+
+*The tension: more information can create greater agency, but it can also increase cognitive burden when consumers are left to interpret it alone.*
+
+### 05.3 — From Marketing Claims to Trust Signals
+
+![A framework contrasting vague, broad, overloaded, and fear-based marketing claims with specific, clear, contextual, and positively framed alternatives, ending in a path to trust from clarity to comprehension to credibility to trust](/images/work/maha-trust-signals.jpg)
+
+*The opportunity: ingredient communication can move from persuasion toward explanation, making credibility easier for consumers to evaluate.*
+
+## Building Trust Through Clarity
+
+Across all three levels, the opportunities point in the same direction: meet shoppers earlier in their decision journey, communicate in terms they don't have to go research elsewhere, and let specific, verifiable claims do the work that vague ones can't.
 
 ## Reflection
 

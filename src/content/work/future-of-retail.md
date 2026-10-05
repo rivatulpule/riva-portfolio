@@ -37,8 +37,6 @@ A few data points shaped the direction of this concept:
 
 Case studies across retailers like Kroger, Wakefern, and Whole Foods showed that when implemented effectively, digital signage can drive engagement, increase sales, and enable real-time consumer interaction.
 
-<em>Editable note, these statistics reflect research I gathered from industry sources during this independent project. Add specific citations here if you'd like to reference them directly.</em>
-
 ## Key Insights
 
 I identified three key opportunity areas where signage could shift from passive to active:
@@ -49,25 +47,41 @@ I identified three key opportunity areas where signage could shift from passive 
 
 The core insight: visibility alone does not drive conversion. Utility, personalization, and timing are what influence shopper behavior.
 
-## The Concept
+## Reimagining the In-Store Experience
 
-I reframed digital signage as a functional commerce tool rather than an advertising medium, proposing interactive displays that enable:
+The opportunity isn't simply better digital advertising. It's turning the display into an active layer of the shopping experience, one that can respond to inventory, context, and shopper needs in real time. I explored this at three levels, zooming in from the store ecosystem down to a single interaction.
 
-- **Endless-aisle ordering**, letting a shopper order an out-of-stock size, color, or flavor directly from the screen for delivery or in-store pickup.
-- **Interactive product information**, surfacing the kind of detail a shopper would otherwise pull out their phone to search for, without breaking their attention away from the shelf.
-- **Personalized recommendations**, using in-store context to suggest genuinely relevant products in real time.
+### 05.1 — From Screen to System
 
-## Visual Deliverables
+**The Connected Store System**
 
-![A Woolworths digital sign displaying a one-way COVID check-in message to shoppers in-store](/images/work/retail-signage-example.jpg)
+![Concept diagram showing in-store data feeding a connected digital signage system that supports shopper decisions and store operations](/images/work/future-retail-connected-system.jpg)
 
-*An example of today's default: signage used for one-way, passive messaging rather than active shopper assistance, the exact gap this concept addresses. (Photo of an existing Woolworths installation, shown for reference, not my design.)*
+*The shift: digital signage becomes a responsive touchpoint within the store ecosystem, rather than a standalone media surface.*
 
-![A shopper using an in-store digital kiosk, part of an "Endless Aisle" concept, alongside a retail aisle lined with digital kiosks](/images/work/future-retail-endless-aisle.jpg)
+### 05.2 — From Touchpoint to Journey
 
-*The endless-aisle concept in practice: a shopper ordering an out-of-stock item directly from an in-store kiosk, the kind of active, functional signage this concept proposes.*
+**Context That Follows the Shopper**
 
-<em>Editable note, this is a conceptual exploration, not a built or launched product. Add shopper journey diagrams and any interface mockups you develop for this concept.</em>
+![Concept journey showing shopper context carrying from in-store discovery through personalization, cart continuation, and fulfillment](/images/work/future-retail-shopping-journey.jpg)
+
+*The shift: instead of restarting at every channel, the shopping experience retains useful context as the shopper moves between physical and digital touchpoints.*
+
+### 05.3 — From Advertising to Decision Support
+
+**Decision Assistant Concept**
+
+![Three-screen conceptual decision assistant helping a shopper choose a goal, receive in-stock recommendations, and build a basket](/images/work/future-retail-decision-assistant.jpg)
+
+*The shift: the display helps solve a shopping decision rather than simply competing for the shopper's attention.*
+
+## Strategic Value
+
+**For shoppers:** Reduce friction when products are unavailable or choices feel overwhelming, while making useful information available at the moment of decision.
+
+**For retailers:** Retain purchases that might otherwise be lost to stockouts, connect physical and digital channels, and use in-store signals to improve the shopping experience.
+
+**For brands:** Move beyond passive exposure by appearing when product information or recommendations are genuinely useful to the shopper.
 
 ## Reflection
 
