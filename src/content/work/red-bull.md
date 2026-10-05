@@ -51,13 +51,56 @@ The opportunity is not to replace Red Bull's existing identity, but to extend th
 
 ### 05.1 — Expand the Occasion, Not the Identity
 
-![Brand expansion framework showing Red Bull's core equity of adrenaline, energy, and performance bridging into a high-performance mindset, expanded occasions like work, personal goals, and creative pursuits, and new relevance as everyday ambition](/images/work/redbull-brand-framework.jpg)
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1rem;margin:1.5rem 0;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">01 · Core Equity</p>
+<p style="margin:0.5rem 0 0;font-weight:600;color:var(--color-charcoal);">Adrenaline · Energy · Performance</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">02 · Brand Bridge</p>
+<p style="margin:0.5rem 0 0;font-weight:600;color:var(--color-charcoal);">High-performance mindset</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">03 · Expanded Occasions</p>
+<p style="margin:0.5rem 0 0;font-weight:600;color:var(--color-charcoal);">Work · Personal goals · Creative pursuits</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">04 · New Relevance</p>
+<p style="margin:0.5rem 0 0;font-weight:600;color:var(--color-charcoal);">Everyday ambition</p>
+</div>
+</div>
 
 *The shift: preserve Red Bull's performance equity while allowing that same mindset to show up across more parts of everyday life.*
 
 ### 05.2 — Designing Around the Workday
 
-![The Workday Occasion Map, showing example moments across a professional's day, from Morning Momentum at 8:30am through After Work at 7pm, each paired with a role energy could play](/images/work/redbull-workday-occasion-map.jpg)
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;margin:1.5rem 0;">
+<div style="border-top:3px solid var(--color-rust);padding-top:0.75rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;color:var(--color-rust);">8:30 AM</p>
+<p style="margin:0.3rem 0 0;font-weight:600;color:var(--color-charcoal);">Morning Momentum</p>
+<p style="margin:0.3rem 0 0;font-size:0.8rem;color:var(--color-ink);opacity:0.85;">Start the day with energy</p>
+</div>
+<div style="border-top:3px solid var(--color-rust);padding-top:0.75rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;color:var(--color-rust);">11:00 AM</p>
+<p style="margin:0.3rem 0 0;font-weight:600;color:var(--color-charcoal);">Deep Work</p>
+<p style="margin:0.3rem 0 0;font-size:0.8rem;color:var(--color-ink);opacity:0.85;">Stay focused during high-intensity work</p>
+</div>
+<div style="border-top:3px solid var(--color-rust);padding-top:0.75rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;color:var(--color-rust);">2:00 PM</p>
+<p style="margin:0.3rem 0 0;font-weight:600;color:var(--color-charcoal);">Afternoon Reset</p>
+<p style="margin:0.3rem 0 0;font-size:0.8rem;color:var(--color-ink);opacity:0.85;">Beat the energy dip and power through</p>
+</div>
+<div style="border-top:3px solid var(--color-rust);padding-top:0.75rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;color:var(--color-rust);">5:30 PM</p>
+<p style="margin:0.3rem 0 0;font-weight:600;color:var(--color-charcoal);">Transition</p>
+<p style="margin:0.3rem 0 0;font-size:0.8rem;color:var(--color-ink);opacity:0.85;">Move from work mode into personal mode</p>
+</div>
+<div style="border-top:3px solid var(--color-brown);padding-top:0.75rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;color:var(--color-brown);">7:00 PM</p>
+<p style="margin:0.3rem 0 0;font-weight:600;color:var(--color-charcoal);">After Work</p>
+<p style="margin:0.3rem 0 0;font-size:0.8rem;color:var(--color-ink);opacity:0.85;">Fitness, hobbies, social plans, and other personal pursuits</p>
+</div>
+</div>
 
 *The shift: instead of defining the audience only by who they are, the strategy identifies the moments when performance and energy become relevant.*
 
@@ -85,7 +128,32 @@ LinkedIn-first campaigns, an "After Work" event series, and partnerships with cr
 
 Expanding a strong brand into new occasions also creates risks. I stress-tested the concept against three potential challenges and considered how the strategy could grow without weakening Red Bull's existing equity.
 
-![A framework protecting the brand while expanding it, covering three risks: core audience alienation, entrenched coffee habits, and a crowded functional beverage market, each paired with a strategic response](/images/work/redbull-stress-test.jpg)
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem;margin:1.5rem 0;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1.1rem 1.25rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">01 · Risk</p>
+<p style="margin:0.4rem 0 0;font-weight:600;color:var(--color-charcoal);">Core audience alienation</p>
+<p style="margin:0.9rem 0 0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">Strategic response</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Layer, don't replace</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Preserve extreme-sports presence</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Segment messaging</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1.1rem 1.25rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">02 · Risk</p>
+<p style="margin:0.4rem 0 0;font-weight:600;color:var(--color-charcoal);">Entrenched coffee habits</p>
+<p style="margin:0.9rem 0 0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">Strategic response</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Complement, don't compete</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Focus on specific energy occasions</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Increase trial and accessibility</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1.1rem 1.25rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">03 · Risk</p>
+<p style="margin:0.4rem 0 0;font-weight:600;color:var(--color-charcoal);">Crowded functional beverage market</p>
+<p style="margin:0.9rem 0 0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">Strategic response</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Own the performance-lifestyle territory</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Leverage existing brand equity</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Continue innovating within the brand world</p>
+</div>
+</div>
 
 *The principle: growth should layer new meaning onto the brand, not trade away the equity that made it distinctive.*
 

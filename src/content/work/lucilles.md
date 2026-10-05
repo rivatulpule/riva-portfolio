@@ -65,11 +65,32 @@ Curated menu options to reduce overwhelm, guiding customers, especially first-ti
 
 <em>These are proposed strategies based on the research findings above. I have not implemented these interventions, and I don't have confirmed data on their impact, this section reflects recommendations only, not measured results.</em>
 
-## Visual Deliverables
+## Where the Drop-Off Happens
 
-![An infographic titled "Where Are We Losing People?" showing drop-off stats of 94.14%, 67.6%, and 60% across the customer journey](/images/work/lucilles-retention-stats.jpg)
+The data below is where the retention gap actually shows up, the exact drop-off points that shaped the recommendations above.
 
-*Where the retention gap actually shows up in the data, the exact drop-off points that shaped the recommendations above.*
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1.5rem;margin:1.5rem 0;text-align:center;">
+<div>
+<div style="width:112px;height:112px;margin:0 auto;border-radius:50%;border:2px dashed var(--color-border-strong);display:flex;align-items:center;justify-content:center;background:var(--color-paper);">
+<span style="font-family:var(--font-serif);font-size:1.4rem;font-weight:700;color:var(--color-brown);">94.14%</span>
+</div>
+<p style="margin-top:0.75rem;font-size:0.85rem;line-height:1.4;color:var(--color-ink);opacity:0.85;">of dine-in customers only visit 1–2 times per year</p>
+</div>
+<div>
+<div style="width:112px;height:112px;margin:0 auto;border-radius:50%;border:2px dashed var(--color-border-strong);display:flex;align-items:center;justify-content:center;background:var(--color-paper);">
+<span style="font-family:var(--font-serif);font-size:1.4rem;font-weight:700;color:var(--color-brown);">67.6%</span>
+</div>
+<p style="margin-top:0.75rem;font-size:0.85rem;line-height:1.4;color:var(--color-ink);opacity:0.85;">of customers say affordability limits them from coming more often</p>
+</div>
+<div>
+<div style="width:112px;height:112px;margin:0 auto;border-radius:50%;border:2px dashed var(--color-border-strong);display:flex;align-items:center;justify-content:center;background:var(--color-paper);">
+<span style="font-family:var(--font-serif);font-size:1.4rem;font-weight:700;color:var(--color-brown);">60%</span>
+</div>
+<p style="margin-top:0.75rem;font-size:0.85rem;line-height:1.4;color:var(--color-ink);opacity:0.85;">of customers say service and hospitality is a key frustration</p>
+</div>
+</div>
+
+<p style="margin-top:0.25rem;font-size:0.75rem;color:var(--color-ink);opacity:0.6;">Source: Lucille's Brand Health study, 1,477 customers surveyed (Q4 2022); segmentation of 140k+ purchases (2023).</p>
 
 ## Reflection
 

@@ -82,39 +82,35 @@ Based on category trends, competitor offerings, promoter conversations, and obse
 
 ## Visual Deliverables
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin:1.5rem 0;align-items:start;">
 <div>
-
-![Proposed Jenan chicken packaging redesign with a large transparent product window and "100% UAE Farm Fresh Chicken" messaging](/images/work/jenan-redesign-concept.jpg)
-
-*Proposed redesign*
-
+<div style="aspect-ratio:1/1;border-radius:0.6rem;border:1px solid var(--color-border);background:var(--color-cream-dark);overflow:hidden;display:flex;align-items:center;justify-content:center;">
+<img src="/images/work/jenan-redesign-concept.jpg" alt="Proposed Jenan chicken packaging redesign with a large transparent product window and &quot;100% UAE Farm Fresh Chicken&quot; messaging" style="width:100%;height:100%;object-fit:contain;border:none;border-radius:0;" />
+</div>
+<p style="margin:0.65rem 0 0;font-style:italic;font-size:0.9rem;text-align:center;color:var(--color-ink);opacity:0.75;">Proposed redesign</p>
 </div>
 <div>
-
-![Current Jenan chicken packaging with a green background and farm illustration](/images/work/jenan-existing-package.jpg)
-
-*Current packaging*
-
+<div style="aspect-ratio:1/1;border-radius:0.6rem;border:1px solid var(--color-border);background:var(--color-cream-dark);overflow:hidden;display:flex;align-items:center;justify-content:center;">
+<img src="/images/work/jenan-existing-package.jpg" alt="Current Jenan chicken packaging with a green background and farm illustration" style="width:100%;height:100%;object-fit:contain;border:none;border-radius:0;" />
+</div>
+<p style="margin:0.65rem 0 0;font-style:italic;font-size:0.9rem;text-align:center;color:var(--color-ink);opacity:0.75;">Current packaging</p>
 </div>
 </div>
 
 For comparison, here is how two competitors approach the same shelf:
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin:1.5rem 0;align-items:start;">
 <div>
-
-![Al Rawdah competitor chicken breast packaging](/images/work/jenan-competitor-al-rawdah.jpg)
-
-*Al Rawdah — competitor chicken breast packaging*
-
+<div style="aspect-ratio:1/1;border-radius:0.6rem;border:1px solid var(--color-border);background:var(--color-cream-dark);overflow:hidden;display:flex;align-items:center;justify-content:center;">
+<img src="/images/work/jenan-competitor-al-rawdah.jpg" alt="Al Rawdah competitor chicken breast packaging" style="width:100%;height:100%;object-fit:contain;border:none;border-radius:0;" />
+</div>
+<p style="margin:0.65rem 0 0;font-style:italic;font-size:0.9rem;text-align:center;color:var(--color-ink);opacity:0.75;">Al Rawdah — competitor chicken breast packaging</p>
 </div>
 <div>
-
-![Al Youm competitor chicken breast fillet packaging](/images/work/jenan-competitor-al-youm.jpg)
-
-*Al Youm — competitor chicken breast fillet packaging*
-
+<div style="aspect-ratio:1/1;border-radius:0.6rem;border:1px solid var(--color-border);background:var(--color-cream-dark);overflow:hidden;display:flex;align-items:center;justify-content:center;">
+<img src="/images/work/jenan-competitor-al-youm.jpg" alt="Al Youm competitor chicken breast fillet packaging" style="width:100%;height:100%;object-fit:contain;border:none;border-radius:0;" />
+</div>
+<p style="margin:0.65rem 0 0;font-style:italic;font-size:0.9rem;text-align:center;color:var(--color-ink);opacity:0.75;">Al Youm — competitor chicken breast fillet packaging</p>
 </div>
 </div>
 

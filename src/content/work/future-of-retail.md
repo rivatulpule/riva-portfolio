@@ -55,7 +55,31 @@ The opportunity isn't simply better digital advertising. It's turning the displa
 
 **The Connected Store System**
 
-![Concept diagram showing in-store data feeding a connected digital signage system that supports shopper decisions and store operations](/images/work/future-retail-connected-system.jpg)
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin:1.5rem 0;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">01 · In-Store Inputs</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;line-height:1.5;color:var(--color-ink);">Shelf sensors, digital shelf labels, in-store analytics, live inventory and shopper signals.</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">02 · System Intelligence</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;line-height:1.5;color:var(--color-ink);">Combines inventory, shopper behavior, and product data in real time.</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">03 · Digital Signage Experience</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;line-height:1.5;color:var(--color-ink);">The display itself, responding with relevant, real-time information for the shopper in front of it.</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">04 · Shopper Outcomes</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;line-height:1.5;color:var(--color-ink);">Order unavailable items, get personalized recommendations, access richer product information.</p>
+</div>
+</div>
+
+<p style="margin:0 0 0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">Operational benefits, employee side</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;margin-bottom:1.5rem;">
+<div style="border-left:3px solid var(--color-brown);padding:0.3rem 0 0.3rem 0.85rem;font-size:0.85rem;color:var(--color-ink);">Real-time alerts for low stock or pricing discrepancies</div>
+<div style="border-left:3px solid var(--color-brown);padding:0.3rem 0 0.3rem 0.85rem;font-size:0.85rem;color:var(--color-ink);">Dynamic price and promotion updates across digital shelf labels</div>
+<div style="border-left:3px solid var(--color-brown);padding:0.3rem 0 0.3rem 0.85rem;font-size:0.85rem;color:var(--color-ink);">Insights on shopper behavior to inform assortment and store operations</div>
+</div>
 
 *The shift: digital signage becomes a responsive touchpoint within the store ecosystem, rather than a standalone media surface.*
 
@@ -63,7 +87,37 @@ The opportunity isn't simply better digital advertising. It's turning the displa
 
 **Context That Follows the Shopper**
 
-![Concept journey showing shopper context carrying from in-store discovery through personalization, cart continuation, and fulfillment](/images/work/future-retail-shopping-journey.jpg)
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;margin:1.5rem 0;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">1 · In-Store Discovery</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">Shopper notices a product or sees a digital display in-aisle.</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">2 · Explore & Personalize</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">Interacts with the display to get recommendations based on goals and preferences.</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">3 · Continue on Phone / Cart</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">Sends selected items to their phone or cart to keep the experience going.</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">4 · Fulfillment</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">Completes purchase via in-store pickup or home delivery.</p>
+</div>
+</div>
+
+<p style="margin:0 0 0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);text-align:center;">Context follows the shopper</p>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0.5rem;margin-bottom:1.5rem;font-size:0.8rem;color:var(--color-ink);">
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Product interest</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Availability</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Preferences</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Recommendations</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-cream-dark);">Fulfillment choice</span>
+</div>
 
 *The shift: instead of restarting at every channel, the shopping experience retains useful context as the shopper moves between physical and digital touchpoints.*
 
@@ -71,7 +125,27 @@ The opportunity isn't simply better digital advertising. It's turning the displa
 
 **Decision Assistant Concept**
 
-![Three-screen conceptual decision assistant helping a shopper choose a goal, receive in-stock recommendations, and build a basket](/images/work/future-retail-decision-assistant.jpg)
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0;">
+<div style="border:1px solid var(--color-border-strong);border-radius:0.75rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0 0 0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">1 · Set Your Goal</p>
+<p style="margin:0 0 0.7rem;font-weight:600;color:var(--color-charcoal);">"What are you shopping for today?"</p>
+<div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+<span style="font-size:0.75rem;padding:0.3rem 0.6rem;border-radius:999px;border:1px solid var(--color-border);">Dinner for 2</span>
+<span style="font-size:0.75rem;padding:0.3rem 0.6rem;border-radius:999px;border:1px solid var(--color-border);">Under $20</span>
+<span style="font-size:0.75rem;padding:0.3rem 0.6rem;border-radius:999px;border:1px solid var(--color-border);">High protein</span>
+<span style="font-size:0.75rem;padding:0.3rem 0.6rem;border-radius:999px;border:1px solid var(--color-border);">Vegetarian</span>
+</div>
+</div>
+<div style="border:1px solid var(--color-border-strong);border-radius:0.75rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0 0 0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">2 · Get Recommendations</p>
+<p style="margin:0 0 0.7rem;font-weight:600;color:var(--color-charcoal);">"Dinner for 2, under $20"</p>
+<p style="margin:0;font-size:0.85rem;color:var(--color-ink);">Shows in-stock products matching the goal, with an estimated total.</p>
+</div>
+<div style="border:1px solid var(--color-border-strong);border-radius:0.75rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<p style="margin:0 0 0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">3 · Build Your Basket</p>
+<p style="margin:0;font-size:0.85rem;color:var(--color-ink);">Suggests complementary items, then lets the shopper add everything to cart or send it to their phone.</p>
+</div>
+</div>
 
 *The shift: the display helps solve a shopping decision rather than simply competing for the shopper's attention.*
 

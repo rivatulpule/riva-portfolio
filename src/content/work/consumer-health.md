@@ -53,19 +53,149 @@ To understand how that tension actually plays out, I mapped it across three leve
 
 ### 05.1 — The New Ingredient Decision Journey
 
-![A seven-step consumer decision journey from seeing a product through checking the front of pack, flipping the package, interpreting ingredients, validating online, weighing trust or doubt, and finally buying, switching, or skipping](/images/work/maha-ingredient-journey.jpg)
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:0.85rem;margin:1.5rem 0;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:0.85rem 0.9rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-rust);">1 · See Product</p>
+<p style="margin:0.4rem 0 0;font-size:0.8rem;font-style:italic;color:var(--color-ink);opacity:0.85;">"I've bought this before."</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:0.85rem 0.9rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-rust);">2 · Check Front of Pack</p>
+<p style="margin:0.4rem 0 0;font-size:0.8rem;font-style:italic;color:var(--color-ink);opacity:0.85;">"This seems healthy and aligned with what I'm looking for."</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:0.85rem 0.9rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-rust);">3 · Flip the Package</p>
+<p style="margin:0.4rem 0 0;font-size:0.8rem;font-style:italic;color:var(--color-ink);opacity:0.85;">"What is actually in this?"</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:0.85rem 0.9rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-rust);">4 · Interpret Ingredients</p>
+<p style="margin:0.4rem 0 0;font-size:0.8rem;font-style:italic;color:var(--color-ink);opacity:0.85;">"Do I recognize these ingredients? Should I be worried?"</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:0.85rem 0.9rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-rust);">5 · Validate / Question</p>
+<p style="margin:0.4rem 0 0;font-size:0.8rem;font-style:italic;color:var(--color-ink);opacity:0.85;">"Let me quickly look this up."</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:0.85rem 0.9rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-rust);">6 · Trust / Doubt</p>
+<p style="margin:0.4rem 0 0;font-size:0.8rem;font-style:italic;color:var(--color-ink);opacity:0.85;">"This seems okay, but I'm still not sure."</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:0.85rem 0.9rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-rust);">7 · Buy / Switch / Skip</p>
+<p style="margin:0.4rem 0 0;font-size:0.8rem;font-style:italic;color:var(--color-ink);opacity:0.85;">"I'll take it." (or "I'll look for a better option.")</p>
+</div>
+</div>
+
+<div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0.5rem;margin-bottom:1.5rem;font-size:0.75rem;color:var(--color-ink);">
+<span style="padding:0.35rem 0.7rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Brand familiarity</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.35rem 0.7rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Claim scrutiny</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.35rem 0.7rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Ingredient scrutiny</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.35rem 0.7rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Interpretation</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.35rem 0.7rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Trust judgment</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.35rem 0.7rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-cream-dark);">Purchase decision</span>
+</div>
 
 *The takeaway: trust isn't lost at a single moment, it accumulates or erodes across each step of this decision path.*
 
 ### 05.2 — The Informed But Overwhelmed Consumer
 
-![A framework covering what consumers want, what they do, what creates friction, the contradiction they face, and the brand opportunity it creates](/images/work/maha-overwhelmed-consumer.jpg)
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem;margin:1.5rem 0;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">What they want</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Simple, recognizable ingredients</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Healthier choices for themselves and their family</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Convenient options that fit into daily life</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Products they can trust</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">What they do</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Read ingredient lists more carefully</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Compare products across brands</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Look for external validation through search, social media, or creator content</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Notice and question unfamiliar ingredients</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">What creates friction</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Complex or scientific terminology</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Conflicting health advice</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Vague or broad claims</p>
+<p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Long ingredient lists and information overload</p>
+</div>
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">The brand opportunity</p>
+<p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">Reduce the cognitive burden of making a "good" choice by providing clear, credible, easy-to-understand ingredient information, without compromising taste, convenience, or accessibility.</p>
+</div>
+</div>
+
+<div style="border-left:3px solid var(--color-rust);border-radius:0.4rem;background:var(--color-paper);padding:0.9rem 1.1rem;margin:0 0 1.5rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">The contradiction</p>
+<p style="margin:0.4rem 0 0;font-style:italic;color:var(--color-charcoal);">"I want to make an informed choice, but I don't want choosing groceries to become research."</p>
+</div>
 
 *The tension: more information can create greater agency, but it can also increase cognitive burden when consumers are left to interpret it alone.*
 
 ### 05.3 — From Marketing Claims to Trust Signals
 
-![A framework contrasting vague, broad, overloaded, and fear-based marketing claims with specific, clear, contextual, and positively framed alternatives, ending in a path to trust from clarity to comprehension to credibility to trust](/images/work/maha-trust-signals.jpg)
+<div style="display:flex;flex-direction:column;gap:0.75rem;margin:1.5rem 0;">
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.75rem;">
+<div style="flex:1;min-width:180px;border:1px solid var(--color-border);border-left:3px solid var(--color-rust);border-radius:0.5rem;background:var(--color-paper);padding:0.75rem 1rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-rust);">Vague claim</p>
+<p style="margin:0.3rem 0 0;font-size:0.85rem;color:var(--color-ink);">"Made with clean ingredients."</p>
+</div>
+<span style="font-size:1.1rem;color:var(--color-border-strong);">→</span>
+<div style="flex:1;min-width:180px;border:1px solid var(--color-border);border-left:3px solid var(--color-brown);border-radius:0.5rem;background:var(--color-cream-dark);padding:0.75rem 1rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-brown);">Specific & verifiable</p>
+<p style="margin:0.3rem 0 0;font-size:0.85rem;color:var(--color-ink);">"Made with 7 ingredients. Here's what each one does."</p>
+</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.75rem;">
+<div style="flex:1;min-width:180px;border:1px solid var(--color-border);border-left:3px solid var(--color-rust);border-radius:0.5rem;background:var(--color-paper);padding:0.75rem 1rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-rust);">Broad claim</p>
+<p style="margin:0.3rem 0 0;font-size:0.85rem;color:var(--color-ink);">"All natural."</p>
+</div>
+<span style="font-size:1.1rem;color:var(--color-border-strong);">→</span>
+<div style="flex:1;min-width:180px;border:1px solid var(--color-border);border-left:3px solid var(--color-brown);border-radius:0.5rem;background:var(--color-cream-dark);padding:0.75rem 1rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-brown);">Clearer language</p>
+<p style="margin:0.3rem 0 0;font-size:0.85rem;color:var(--color-ink);">"No artificial flavors, colors, or preservatives."</p>
+</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.75rem;">
+<div style="flex:1;min-width:180px;border:1px solid var(--color-border);border-left:3px solid var(--color-rust);border-radius:0.5rem;background:var(--color-paper);padding:0.75rem 1rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-rust);">Information overload</p>
+<p style="margin:0.3rem 0 0;font-size:0.85rem;color:var(--color-ink);">Long ingredient lists with unfamiliar or technical terms.</p>
+</div>
+<span style="font-size:1.1rem;color:var(--color-border-strong);">→</span>
+<div style="flex:1;min-width:180px;border:1px solid var(--color-border);border-left:3px solid var(--color-brown);border-radius:0.5rem;background:var(--color-cream-dark);padding:0.75rem 1rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-brown);">Context & clarity</p>
+<p style="margin:0.3rem 0 0;font-size:0.85rem;color:var(--color-ink);">Ingredients with plain-language explanations of why each one is there.</p>
+</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:0.75rem;">
+<div style="flex:1;min-width:180px;border:1px solid var(--color-border);border-left:3px solid var(--color-rust);border-radius:0.5rem;background:var(--color-paper);padding:0.75rem 1rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-rust);">Fear-based communication</p>
+<p style="margin:0.3rem 0 0;font-size:0.85rem;color:var(--color-ink);">"Free from artificial ingredients!"</p>
+</div>
+<span style="font-size:1.1rem;color:var(--color-border-strong);">→</span>
+<div style="flex:1;min-width:180px;border:1px solid var(--color-border);border-left:3px solid var(--color-brown);border-radius:0.5rem;background:var(--color-cream-dark);padding:0.75rem 1rem;">
+<p style="margin:0;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-brown);">Positive framing</p>
+<p style="margin:0.3rem 0 0;font-size:0.85rem;color:var(--color-ink);">"Real ingredients for real life."</p>
+</div>
+</div>
+</div>
+
+<p style="margin:1.5rem 0 0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);text-align:center;">The path to trust</p>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0.5rem;margin-bottom:1.5rem;font-size:0.8rem;color:var(--color-ink);">
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Clarity</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Comprehension</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Credibility</span>
+<span style="color:var(--color-border-strong);">→</span>
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-cream-dark);">Trust</span>
+</div>
 
 *The opportunity: ingredient communication can move from persuasion toward explanation, making credibility easier for consumers to evaluate.*
 
