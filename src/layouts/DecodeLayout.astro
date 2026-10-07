@@ -61,7 +61,7 @@ const formattedDate = publishDate.toLocaleDateString('en-US', {
         <slot />
       </div>
 
-      {linkedinUrl ? (
+      {linkedinUrl && (
         <a
           href={linkedinUrl}
           target="_blank"
@@ -73,10 +73,6 @@ const formattedDate = publishDate.toLocaleDateString('en-US', {
             <path d="M7 17 17 7M8 7h9v9" />
           </svg>
         </a>
-      ) : (
-        <p class="mt-10 rounded-md border border-dashed border-[var(--color-border-strong)] bg-[var(--color-cream-dark)] px-4 py-3 text-sm italic text-[var(--color-brown)]">
-          Editable note, add the link to this edition's original LinkedIn post here.
-        </p>
       )}
     </div>
 

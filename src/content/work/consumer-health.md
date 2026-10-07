@@ -78,7 +78,7 @@ To understand how that tension actually plays out, I mapped it across three leve
 <p style="margin:0;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-rust);">6 · Trust / Doubt</p>
 <p style="margin:0.4rem 0 0;font-size:0.8rem;font-style:italic;color:var(--color-ink);opacity:0.85;">"This seems okay, but I'm still not sure."</p>
 </div>
-<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:0.85rem 0.9rem;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:0.85rem 0.9rem;">
 <p style="margin:0;font-size:0.65rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-rust);">7 · Buy / Switch / Skip</p>
 <p style="margin:0.4rem 0 0;font-size:0.8rem;font-style:italic;color:var(--color-ink);opacity:0.85;">"I'll take it." (or "I'll look for a better option.")</p>
 </div>
@@ -95,7 +95,7 @@ To understand how that tension actually plays out, I mapped it across three leve
 <span style="color:var(--color-border-strong);">→</span>
 <span style="padding:0.35rem 0.7rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Trust judgment</span>
 <span style="color:var(--color-border-strong);">→</span>
-<span style="padding:0.35rem 0.7rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-cream-dark);">Purchase decision</span>
+<span style="padding:0.35rem 0.7rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Purchase decision</span>
 </div>
 
 *The takeaway: trust isn't lost at a single moment, it accumulates or erodes across each step of this decision path.*
@@ -124,7 +124,7 @@ To understand how that tension actually plays out, I mapped it across three leve
 <p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Vague or broad claims</p>
 <p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Long ingredient lists and information overload</p>
 </div>
-<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
 <p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">The brand opportunity</p>
 <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">Reduce the cognitive burden of making a "good" choice by providing clear, credible, easy-to-understand ingredient information, without compromising taste, convenience, or accessibility.</p>
 </div>
@@ -194,7 +194,7 @@ To understand how that tension actually plays out, I mapped it across three leve
 <span style="color:var(--color-border-strong);">→</span>
 <span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Credibility</span>
 <span style="color:var(--color-border-strong);">→</span>
-<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-cream-dark);">Trust</span>
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Trust</span>
 </div>
 
 *The opportunity: ingredient communication can move from persuasion toward explanation, making credibility easier for consumers to evaluate.*

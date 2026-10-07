@@ -64,7 +64,7 @@ The opportunity is not to replace Red Bull's existing identity, but to extend th
 <p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">03 · Expanded Occasions</p>
 <p style="margin:0.5rem 0 0;font-weight:600;color:var(--color-charcoal);">Work · Personal goals · Creative pursuits</p>
 </div>
-<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
 <p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">04 · New Relevance</p>
 <p style="margin:0.5rem 0 0;font-weight:600;color:var(--color-charcoal);">Everyday ambition</p>
 </div>
@@ -95,8 +95,8 @@ The opportunity is not to replace Red Bull's existing identity, but to extend th
 <p style="margin:0.3rem 0 0;font-weight:600;color:var(--color-charcoal);">Transition</p>
 <p style="margin:0.3rem 0 0;font-size:0.8rem;color:var(--color-ink);opacity:0.85;">Move from work mode into personal mode</p>
 </div>
-<div style="border-top:3px solid var(--color-brown);padding-top:0.75rem;">
-<p style="margin:0;font-size:0.7rem;font-weight:700;color:var(--color-brown);">7:00 PM</p>
+<div style="border-top:3px solid var(--color-rust);padding-top:0.75rem;">
+<p style="margin:0;font-size:0.7rem;font-weight:700;color:var(--color-rust);">7:00 PM</p>
 <p style="margin:0.3rem 0 0;font-weight:600;color:var(--color-charcoal);">After Work</p>
 <p style="margin:0.3rem 0 0;font-size:0.8rem;color:var(--color-ink);opacity:0.85;">Fitness, hobbies, social plans, and other personal pursuits</p>
 </div>
@@ -145,7 +145,7 @@ Expanding a strong brand into new occasions also creates risks. I stress-tested 
 <p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Focus on specific energy occasions</p>
 <p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Increase trial and accessibility</p>
 </div>
-<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1.1rem 1.25rem;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1.1rem 1.25rem;">
 <p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">03 · Risk</p>
 <p style="margin:0.4rem 0 0;font-weight:600;color:var(--color-charcoal);">Crowded functional beverage market</p>
 <p style="margin:0.9rem 0 0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">Strategic response</p>

@@ -64,7 +64,7 @@ The opportunity isn't simply better digital advertising. It's turning the displa
 <p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">02 · System Intelligence</p>
 <p style="margin:0.5rem 0 0;font-size:0.85rem;line-height:1.5;color:var(--color-ink);">Combines inventory, shopper behavior, and product data in real time.</p>
 </div>
-<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
 <p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">03 · Digital Signage Experience</p>
 <p style="margin:0.5rem 0 0;font-size:0.85rem;line-height:1.5;color:var(--color-ink);">The display itself, responding with relevant, real-time information for the shopper in front of it.</p>
 </div>
@@ -100,7 +100,7 @@ The opportunity isn't simply better digital advertising. It's turning the displa
 <p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">3 · Continue on Phone / Cart</p>
 <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">Sends selected items to their phone or cart to keep the experience going.</p>
 </div>
-<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
 <p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">4 · Fulfillment</p>
 <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">Completes purchase via in-store pickup or home delivery.</p>
 </div>
@@ -116,7 +116,7 @@ The opportunity isn't simply better digital advertising. It's turning the displa
 <span style="color:var(--color-border-strong);">→</span>
 <span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Recommendations</span>
 <span style="color:var(--color-border-strong);">→</span>
-<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-cream-dark);">Fulfillment choice</span>
+<span style="padding:0.4rem 0.8rem;border:1px solid var(--color-border);border-radius:999px;background:var(--color-paper);">Fulfillment choice</span>
 </div>
 
 *The shift: instead of restarting at every channel, the shopping experience retains useful context as the shopper moves between physical and digital touchpoints.*
@@ -141,7 +141,7 @@ The opportunity isn't simply better digital advertising. It's turning the displa
 <p style="margin:0 0 0.7rem;font-weight:600;color:var(--color-charcoal);">"Dinner for 2, under $20"</p>
 <p style="margin:0;font-size:0.85rem;color:var(--color-ink);">Shows in-stock products matching the goal, with an estimated total.</p>
 </div>
-<div style="border:1px solid var(--color-border-strong);border-radius:0.75rem;background:var(--color-cream-dark);padding:1rem 1.1rem;">
+<div style="border:1px solid var(--color-border-strong);border-radius:0.75rem;background:var(--color-paper);padding:1rem 1.1rem;">
 <p style="margin:0 0 0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">3 · Build Your Basket</p>
 <p style="margin:0;font-size:0.85rem;color:var(--color-ink);">Suggests complementary items, then lets the shopper add everything to cart or send it to their phone.</p>
 </div>
