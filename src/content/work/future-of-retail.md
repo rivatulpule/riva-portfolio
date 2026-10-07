@@ -143,6 +143,7 @@ The opportunity isn't simply better digital advertising. It's turning the displa
 </div>
 <div style="border:1px solid var(--color-border-strong);border-radius:0.75rem;background:var(--color-paper);padding:1rem 1.1rem;">
 <p style="margin:0 0 0.6rem;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">3 · Build Your Basket</p>
+<p style="margin:0 0 0.7rem;font-weight:600;color:var(--color-charcoal);">"Add a side salad to complete this meal?"</p>
 <p style="margin:0;font-size:0.85rem;color:var(--color-ink);">Suggests complementary items, then lets the shopper add everything to cart or send it to their phone.</p>
 </div>
 </div>

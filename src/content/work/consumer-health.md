@@ -118,7 +118,7 @@ To understand how that tension actually plays out, I mapped it across three leve
 <p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Notice and question unfamiliar ingredients</p>
 </div>
 <div style="border:1px solid var(--color-border);border-radius:0.6rem;background:var(--color-paper);padding:1rem 1.1rem;">
-<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-rust);">What creates friction</p>
+<p style="margin:0;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-brown);">What creates friction</p>
 <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Complex or scientific terminology</p>
 <p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Conflicting health advice</p>
 <p style="margin:0.25rem 0 0;font-size:0.85rem;color:var(--color-ink);">– Vague or broad claims</p>
